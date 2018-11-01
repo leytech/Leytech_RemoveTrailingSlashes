@@ -1,0 +1,2 @@
+src/app/code/community/Leytech/RemoveTrailingSlashes                            app/code/community/Leytech/RemoveTrailingSlashes
+src/app/etc/modules/Leytech_RemoveTrailingSlashes.xml                           app/etc/modules/Leytech_RemoveTrailingSlashes.xml

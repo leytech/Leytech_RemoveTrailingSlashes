@@ -1,0 +1,13 @@
+{
+  "name": "leytech/leytech_removetrailingslashes",
+  "type": "magento-module",
+  "description": "Module to remove the trailing slash from Magento generated URLs.",
+  "homepage": "https://github.com/leytech/Leytech_RemoveTrailingSlashes",
+  "require": {
+    "php": ">=5.4.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra":{
+    "magento-root-dir": "src/"
+  }
+}

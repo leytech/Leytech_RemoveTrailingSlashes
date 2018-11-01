@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package    Leytech_RemoveTrailingSlashes
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2018 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+-->
+<config>
+    <modules>
+        <Leytech_RemoveTrailingSlashes>
+            <version>1.0.0</version>
+        </Leytech_RemoveTrailingSlashes>
+    </modules>
+    <global>
+        <helpers>
+            <leytech_remove_trailing_slashes>
+                <class>Leytech_RemoveTrailingSlashes_Helper</class>
+            </leytech_remove_trailing_slashes>
+        </helpers>
+        <models>
+            <leytech_remove_trailing_slashes>
+                <class>Leytech_RemoveTrailingSlashes_Model</class>
+            </leytech_remove_trailing_slashes>
+            <core>
+                <rewrite>
+                    <url>Leytech_RemoveTrailingSlashes_Model_Url</url>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>
