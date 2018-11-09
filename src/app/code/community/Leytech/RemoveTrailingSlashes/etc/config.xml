@@ -10,7 +10,7 @@
 <config>
     <modules>
         <Leytech_RemoveTrailingSlashes>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Leytech_RemoveTrailingSlashes>
     </modules>
     <global>
